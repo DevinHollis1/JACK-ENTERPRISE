@@ -1,0 +1,109 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define a font for the entire page */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the navbar */
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the header */
+  #showcase {
+    background-image: url('./assets/images/your-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #showcase h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #showcase p {
+    font-size: 18px;
+  }
+  
+  /* Style the main content sections */
+  .content-wrap {
+    padding: 20px;
+  }
+  
+  .content-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content-text {
+    font-size: 16px;
+  }
+  
+  /* Style the adventure cards */
+  .card {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the contact and about boxes */
+  .box {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the footer */
+  #main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  #main-footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #main-footer a:hover {
+    text-decoration: underline;
+  }
+  

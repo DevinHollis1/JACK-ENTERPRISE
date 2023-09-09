@@ -68,10 +68,10 @@ const fetchEuropeanArtData = async () => {
     <div className="navbar">
         <Link to="/">NASA</Link>
         <Link to="/metArt">Art</Link>
-        <Link to="/JacEnterprise">Contact</Link>
         <Link to="/activities">Activities</Link>
         <Link to="/Planet">Planet gallery</Link>
-        <Link to= "/WeatherData"> Space Weather </Link>
+        <Link to="/WeatherData">Space Weather</Link>
+        <Link to="/JacEnterprise">Contact</Link>
     </div>
 
     <div className="art-image-container">

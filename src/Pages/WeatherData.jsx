@@ -177,15 +177,15 @@ const SpaceWeatherData = () => {
   return (
     <>
 
-     {/* NAVBAR */}
+    {/* NAVBAR */}
     <div className="navbar">
         <Link to="/">NASA</Link>
         <Link to="/metArt">Art</Link>
-        <Link to="/JacEnterprise">Contact</Link>
         <Link to="/activities">Activities</Link>
         <Link to="/Planet">Planet gallery</Link>
-        <Link to= "/WeatherData"> Space Weather </Link>
-    </div>
+        <Link to="/WeatherData">Space Weather</Link>
+        <Link to="/JacEnterprise">Contact</Link>
+      </div>
 
       <h1 className={styles.title}>
         Space Weather Database Of Notifications, Knowledge, Information

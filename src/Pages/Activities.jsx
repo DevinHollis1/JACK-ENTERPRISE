@@ -49,14 +49,14 @@ const Activities = () => {
   return (
     <>
       {/* NAVBAR */}
-    <div className="navbar">
+      <div className="navbar">
         <Link to="/">NASA</Link>
         <Link to="/metArt">Art</Link>
-        <Link to="/JacEnterprise">Contact</Link>
         <Link to="/activities">Activities</Link>
         <Link to="/Planet">Planet gallery</Link>
-        <Link to= "/WeatherData"> Space Weather </Link>
-    </div>
+        <Link to="/WeatherData">Space Weather</Link>
+        <Link to="/JacEnterprise">Contact</Link>
+      </div>
       
       <div className="image-container">
   <img src="https://thumbs.dreamstime.com/b/healthy-lifestyle-background-sport-activity-fintess-design-elements-seamless-pattern-vector-illustration-healthy-lifestyle-178020105.jpg" alt="video-Background" className="video-background" />
